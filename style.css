@@ -1,0 +1,39 @@
+* {
+    color: #163235;
+}
+
+window {
+    font-size: 20px;
+    font-family: "CodeNewRoman Nerd Font Mono";
+    background-color: transparent;
+}
+
+#inner-box {
+    background-color: rgba(163, 224, 225, 0.9);
+    border: 1px solid #163235;
+    border-radius: 10px;
+}
+
+#entry {
+    background-color: transparent;
+    padding: 0.5em;
+}
+
+#entry:selected {
+    background: linear-gradient(90deg, #00e5d0, #00a4f7);
+    border-radius: 10px;
+    padding-left: 1.5em;
+    outline: none;
+}
+
+#input {
+    border-radius: 10px;
+    padding: 0.5em;
+    margin-bottom: 10px;
+    background-color: rgba(16, 105, 103, 0.9);
+}
+
+#img {
+    margin-right: 1em;
+    margin-left: 0.5em;
+}
